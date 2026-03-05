@@ -9,6 +9,6 @@ public class WebMvcConfig implements WebMvcConfigurer {
 
     @Override
     public void addCorsMappings(CorsRegistry registry) {
-        registry.addMapping("/**").allowedMethods("*").allowedOrigins("http://localhost:5173");
+        registry.addMapping("/**").allowedMethods("*").allowedOrigins("http://localhost:5173,https://online-quiz-frontend-p9p3.onrender.com");
     }
 }
